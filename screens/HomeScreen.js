@@ -12,7 +12,7 @@ const UsuarioCollection = db.collection("UsuarioPerfil");
 
 const HomeScreen = () => {
  const navigation = useNavigation()
-  const [CPF, setCPF]= useState('')
+  const [CPF, setCPF]= useState('  ')
 
   const handleSignOut = () => {
     signOut(auth)
